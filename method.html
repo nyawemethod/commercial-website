@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduStream | Learning Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="nav-container">
+            <a href="#" class="logo">🎓 EduStream</a>
+            <button class="menu-toggle" id="mobile-toggle" aria-label="Toggle navigation configuration">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navigation-drawer">
+                <li><a href="https://youtube.com" target="_blank">YouTube</a></li>
+                <li><a href="https://google.com" target="_blank">Google</a></li>
+                <li><a href="https://microsoft.com" target="_blank">Edge</a></li>
+                <li><a href="https://google.com/chrome" target="_blank">Chrome</a></li>
+                <li><a href="#" class="cta-btn">Join Free</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Upgrade Your Technical Expertise</h1>
+            <p>Access high-quality university courses covering modern engineering pipelines and runtime execution models entirely online.</p>
+            <button class="cta-btn" style="border:none; cursor:pointer; font-size:1.1rem; padding: 0.9rem 2.5rem;">Explore Roadmap</button>
+        </div>
+        <div class="hero-image-pane">🚀</div>
+    </section>
+
+    <section class="controls-section">
+        <input type="text" class="search-box" id="search-input" placeholder="Search across keywords...">
+        <div class="filter-tags">
+            <button class="filter-btn active" data-filter="all">All Ecosystems</button>
+            <button class="filter-btn" data-filter="engineering">Engineering</button>
+            <button class="filter-btn" data-filter="analytics">Analytics</button>
+        </div>
+    </section>
+
+    <section class="catalog-section">
+        <div class="grid-container" id="cards-container-mount"></div>
+    </section>
+
+    <script src="nyawe.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</body>
+</html>
